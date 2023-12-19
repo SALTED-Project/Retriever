@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+
+  retriever:
+    container_name: retriever
+    build: .
+    restart: unless-stopped
+    ports:
+      - ${EXTERNAL_PORT}:${INTERNAL_PORT}
+    volumes:
+      - ./config.json:/app/config.json:ro

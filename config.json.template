@@ -1,0 +1,13 @@
+{
+  "context_broker": {
+    "url": <context broker URL>,
+    "auth": <boolean that determines if the context broker access has authentication>
+  },
+  "authentication":{
+    "_type": "information parameter on what type of authentication does the broker have. The following parameters correspond to a Keycloack instance. Change names and code as necessary",
+    "url": <keycloack instance URL>,
+    "scope": <keycloack scope>,
+    "client_id": <client id>,
+    "client_secret": <client secret>
+  }
+}
