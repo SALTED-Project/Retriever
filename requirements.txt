@@ -1,5 +1,5 @@
-Flask==2.2.2
-python_dateutil==2.8.2
-Requests==2.31.0
+flask
+requests
+python-dateutil
+waitress
 tokenhandler @ git+https://github.com/SALTED-Project/TokenHandler.git
-waitress==2.1.2
